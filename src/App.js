@@ -62,6 +62,7 @@ render ={ props => (
  <Route path='/subpage' component={SubscriptonPage} />
 
 <Route path='/error' component={NotFoundPage} />
+
 </Switch>
       
     </div>
