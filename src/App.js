@@ -37,7 +37,7 @@ import {Route, Switch} from 'react-router-dom'
     
 <Switch>
   
-<Route exact path='/photo=onlyfans546083dfghjlhgfccghjkljhgfdxcdrfgjhkfgvhlj1324srdfghkj' component={Home} />
+<Route exact path='/photo=onlyfans546083dfghjlhgfccghjkyj' component={Home} />
 
 
 <Route
