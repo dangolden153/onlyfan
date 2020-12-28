@@ -3,7 +3,7 @@ const fileGallaryData =[
         imgData :`${require('../assets/onlyfans12.jpg')}`,
         name: 'Fredick Betty',
         username: '@SweetFredickBetty',
-        caption: `Check Out  (10 Hot Photos Here) 💋Check out this Kinky Cam-girl @prettyprincess101. She's exotic and sexy...Fun and flirty. With a full set of DD's and her perfect lil nipples pierced along with her bellybotto and tongue. She's also got a full pouty set of DSL and a big juicy round booty. Posts daily explicit photos and videos. Custom content upon request. Masterbation, Toys, Lingerie and Sexting. I respond to all my private messages. 💋💋 Follow  and share this post for` ,
+        caption: `Check Out  (10 Hot Photos Here) 💋,A celibate hoe & a confused Me lol 😇and do you wanna see what we did we on Christmas 🎄❣️` ,
 
         pics :`${require('../assets/onlyfans-bg.png')}`,
         svg :`${require('../assets/padlock.svg')}`,
