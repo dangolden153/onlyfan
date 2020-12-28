@@ -89,7 +89,7 @@ return (
 
                                 <p className="infotext">free goodies for subs  🖤</p>
                                 <p className="infotext">access to extra (feet pics phone sex, dick rating) </p>
-                                <p className="infotext">HMU @ sweetbetty11 😘</p>
+                                <p className="infotext">HMU on Snapchat @ sweetbetty11 😘</p>
                                 <p className="infotext">Custom request welcome</p>
                                 <p className="infotext">Follow us now and find 100's of the hottest 
                                 creators on Only Fans plus we have new posts every single day 💦💦.</p>
