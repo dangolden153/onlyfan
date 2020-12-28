@@ -87,7 +87,7 @@ return (
                         and nudes ,Lewd, Vids (solo content), and more
                                 previews
 
-                                <p className="infotext">free goodles for subs  🖤</p>
+                                <p className="infotext">free goodies for subs  🖤</p>
                                 <p className="infotext">access to extra (feet pics phone sex, dick rating) </p>
                                 <p className="infotext">HMU @ sweetbetty11 😘</p>
                                 <p className="infotext">Custom request welcome</p>
