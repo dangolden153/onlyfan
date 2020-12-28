@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import pics from '../assets/onlyfans7.jpg'
-import dp from '../assets/onlyfans10.jpg'
+import dp from '../assets/onlyfans12.jpg'
 import svg from '../assets/left-arrow.svg'
 import menuSvg from '../assets/menu.svg'
 import SubComponent from '../subComponent/subComponent'

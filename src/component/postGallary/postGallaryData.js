@@ -1,6 +1,6 @@
 const postGallaryData =[
     {
-        imgData :`${require('../assets/onlyfans10.jpg')}`,
+        imgData :`${require('../assets/onlyfansDp.jpg')}`,
         name: 'Fredick Betty',
         username: '@SweetFredickBetty',
         caption: `Check Out  (10 Hot Photos Here) 💋Check out this Kinky Cam-girl @prettyprincess101. She's exotic and sexy...Fun and flirty. With a full set of DD's and her perfect lil nipples pierced along with her bellybotto and tongue. She's also got a full pouty set of DSL and a big juicy round booty. Posts daily explicit photos and videos. Custom content upon request. Masterbation, Toys, Lingerie and Sexting. I respond to all my private messages. 💋💋 Follow  and share this post for` ,
@@ -10,7 +10,7 @@ const postGallaryData =[
     },
 
     {
-        imgData :`${require('../assets/onlyfans10.jpg')}`,
+        imgData :`${require('../assets/onlyfansDp1.jpg')}`,
         name: 'Fredick Betty',
         username: '@SweetFredickBetty',
         caption: 'Check Out @ 👀 (9 Hot Photos Here) 💋 New bundle deal for this tattooed beauty🖤 50% OFF your first month and 25% OFF the next 3 months!🎁 I’m thick and juicy 💦 and I want to make your day special with custom pics and videos😘 subscribe and cum have some fun with me😉 💋💋 Follow  and share this post for her.',

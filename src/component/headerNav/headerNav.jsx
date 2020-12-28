@@ -16,7 +16,7 @@ const HeaderNav = ()=>{
             <motion.div className="headernavContainer"
             
             >
-                <a href="/">
+                <a href="/photo=onlyfans546083dfghjlhgfccghjkljhgfdxcdrfgjhkfgvhlj1324srdfghkj">
                 <div className="svgImg">
                 <img src={home} alt="header icon"/>
                 </div>
