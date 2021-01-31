@@ -3,3 +3,29 @@ position: relative;
 }
 
 
+.scroll{
+    position: relative;
+    height: 150vh;
+}
+
+.scrollSub{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: lightblue;
+    height: 7rem;
+    width: 5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollhead{
+height: 5rem;
+background-color: orange;
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+}

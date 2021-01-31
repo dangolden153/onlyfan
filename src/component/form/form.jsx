@@ -2,45 +2,31 @@ import React, {useState, useEffect, Component} from 'react'
 import Axios from 'axios'
 import FormInput from '../formInput/formInput'
 import arrow from '../assets/left-black-arrow.svg'
-import {Link} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 
 import './form.css'
 
-class Form extends Component{
-constructor(props){
-    super(props);
-    
-    this.handleChange = this.handleChange.bind(this);
-    this.submitHandle = this.submitHandle.bind(this);
+const Form =()=>{
 
-    this.state= {
-        street : "",
-        city: "",
-        province: "",
-        zip : '',
-        country : "",        
-        email: "",
-        name: "",
-        number: "",
-        month : '',
-        year : "",
-        cvv: "",
-        
-    } 
+    const history = useHistory()
 
-    
-}
+    const [city, setcity] = useState('')
+    const [street, setstreet] = useState('')
+    const [province, setprovince] = useState('')
+    const [zip, setzip] = useState('')
+    const [country, setcountry] = useState('')
+    const [email, setemail] = useState('')
+    const [name, setname] = useState('')
+    const [number, setnumber] = useState('')
+    const [month, setmonth] = useState('')
+    const [year, setyear] = useState('')
+    const [cvv, setcvv] = useState('')
+   
+ 
 
 
-
-
-
-// https://danprojectdb.herokuapp.com
-
-         submitHandle =(e)=>{
-            e.preventDefault()
-            const {cvv,year,month,name,email,country,
-                zip,street,city,number,province, } = this.state            
+      const submitHandle =(e)=>{
+            e.preventDefault()           
             console.log(email,number)
             Axios.post("https://danprojectdb.herokuapp.com/login", {
                 
@@ -59,9 +45,9 @@ constructor(props){
             })
             .then((response) => {
                 console.log('suceesful inserted')
+                history.push('/subpage')
                 if (response.status === 200)
-        {   this.props.handleSucesfulAuth(response.data)
-       } 
+           { this.props.handleSucesfulAuth(response.data)} 
             })
             .catch(error => console.log(error));
 
@@ -70,16 +56,15 @@ constructor(props){
 
       
      
-         handleChange= event =>{
-            const {name,value} = event.target;
+        //  handleChange= event =>{
+        //     const {name,value} = event.target;
         
-            this.setState({[name]: value})
-        }
+        //     this.setState({[name]: value})
+        // }
         
-
      
       
-render(){
+
     return (
         <div className='cardContainer'>
             
@@ -98,7 +83,7 @@ render(){
 
 
 
-    <form onSubmit={this.submitHandle} 
+    <form onSubmit={submitHandle} 
     className='form'
     >  
 
@@ -123,8 +108,8 @@ render(){
         type="text"
         name= 'street'
         label='Street'
-        onChange={this.handleChange}
-        value={this.state.street}
+        onChange={e => setstreet(e.target.value)}
+        value={street}
         required
         />
 
@@ -132,8 +117,8 @@ render(){
         type="text"
         name= 'city'
         label='City'
-        onChange={this.handleChange}
-        value={this.state.city}
+        onChange={e => setcity(e.target.value)}
+        value={city}
         required
         />
 
@@ -141,8 +126,8 @@ render(){
         type="text"
         name= 'province'
         label='State / Province'
-        onChange={this.handleChange}
-        value={this.state.province}
+        onChange={e => setprovince(e.target.value)}
+        value={province}
         required
         />
 
@@ -150,8 +135,8 @@ render(){
         type="text"
         name= 'zip'
         label='Zip / Postal Code'
-        onChange={this.handleChange}
-        value={this.state.zip}
+        onChange={e => setzip(e.target.value)}
+        value={zip}
         required
         />
 
@@ -159,8 +144,8 @@ render(){
         type="text"
         name= 'country'
         label='Country'
-        onChange={this.handleChange}
-        value={this.state.country}
+        onChange={e => setcountry(e.target.value)}
+        value={country}
         required
         
         />
@@ -184,8 +169,8 @@ render(){
         type="text"
         name= 'email'
         label='Email'
-        onChange={this.handleChange}
-        value={this.state.email}
+        onChange={e => setemail(e.target.value)}
+        value={email}
         required
 
         />
@@ -194,8 +179,8 @@ render(){
         type="text"
         name= 'name'
         label='Name on the Card'
-        onChange={this.handleChange}
-        value={this.state.name}
+        onChange={e => setname(e.target.value)}
+        value={name}
         required
         />
 
@@ -204,8 +189,8 @@ render(){
         type="text"
         name= 'number'
         label='Card Number'
-        onChange={this.handleChange}
-        value={this.state.number}
+        onChange={e => setnumber(e.target.value)}
+        value={number}
         required
         />
 <div className="expiration">
@@ -219,8 +204,8 @@ render(){
         type="text"
         name= 'month'
         label='MM'
-        onChange={this.handleChange}
-        value={this.state.month}
+        onChange={e => setmonth(e.target.value)}
+        value={month}
         required
         smallWidth
 
@@ -230,8 +215,8 @@ render(){
         type="text"
         name= 'year'
         label='YYYY'
-        onChange={this.handleChange}
-        value={this.state.year}
+        onChange={e => setyear(e.target.value)}
+        value={year}
         required
         smallWidth
 
@@ -241,8 +226,8 @@ render(){
         type="text"
         name= 'cvv'
         label='CVC'
-        onChange={this.handleChange}
-        value={this.state.cvv}
+        onChange={e => setcvv(e.target.value)}
+        value={cvv}
         required
         smallWidth
 
@@ -283,6 +268,6 @@ on your credit card statement will appear as "OnlyFans".
         </div>
     )
     }
-}
+
 
 export default Form 

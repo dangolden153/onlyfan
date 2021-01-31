@@ -7,6 +7,7 @@ import Card  from './component/card/card'
 import HeaderNav from './component/headerNav/headerNav'
 import SubscriptonPage from './pages/subscribePage/subscribePage'
 import NotFoundPage from './component/notFoundPage/notFoundPage'
+import Scroll from './component/scroll'
 
 import {Route, Switch} from 'react-router-dom'
 
@@ -61,7 +62,9 @@ render ={ props => (
 
  <Route path='/subpage' component={SubscriptonPage} />
 
-<Route path='/error' component={NotFoundPage} />
+ <Route path='/error' component={NotFoundPage} />
+ <Route path='/scroll' component={Scroll} />
+
 
 </Switch>
       
