@@ -17,18 +17,19 @@ const Scroll =()=>{
         <motion.div className="scroll" 
           
         >
-            <motion.div style={{y: header,  opacity:opacity}}
-            
+            <div className="scrollheadCont">
+            <motion.div style={{  opacity:opacity}}
              className="scrollhead">
-              
              </motion.div>
+             </div>
 
+            <div className="scrollSubCont">
             <motion.h1  className="scrollSub"
-            style={{ y: yValue}}
-            
-            >
+            style={{ scale: scale}}>
                 hey
             </motion.h1>
+            </div>
+
         </motion.div>
    )
 }
