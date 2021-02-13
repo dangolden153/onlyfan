@@ -8,7 +8,6 @@ import HeaderNav from './component/headerNav/headerNav'
 import SubscriptonPage from './pages/subscribePage/subscribePage'
 import NotFoundPage from './component/notFoundPage/notFoundPage'
 import Scroll from './component/scroll'
-import NetflixApp from './component/netflix/netflix'
 import {Route, Switch} from 'react-router-dom'
 
 
@@ -38,7 +37,7 @@ import {Route, Switch} from 'react-router-dom'
     
 <Switch>
   
-<Route exact path='/photo=onlyfans546083dfghjlhgfccghjkyj' component={Home} />
+<Route exact path='/' component={Home} /> 
 
 
 <Route
@@ -64,7 +63,7 @@ render ={ props => (
 
  <Route path='/error' component={NotFoundPage} />
  <Route path='/scroll' component={Scroll} />
- <Route path='/net' component={NetflixApp}/>
+
 
 </Switch>
       
